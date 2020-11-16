@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function job_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
+{
+  if($form["#id"] === "node-job-form"){
+    $user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());
+    $form["field_phone_number"]["widget"][0]["value"]["#default_value"] = $user->get('field_phone_number')->getString();
+    if($user->get('field_account_type')->getString() !== "0") {
+      $form["field_company_email"]["widget"][0]["value"]["#default_value"] = $user->get("mail")->getString();
+      $form["field_company_website"]["widget"][0]['uri']['#default_value'] = $user->get("field_company_website")->getString();
+    }
+  }
+}
+
+function job_node_access(\Drupal\node\NodeInterface $node, $op, \Drupal\Core\Session\AccountInterface $account)
+{
+  dump($node->get('field_published'));
+}
+
+
