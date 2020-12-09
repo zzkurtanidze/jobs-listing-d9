@@ -1,0 +1,25 @@
+name: Omedia
+type: theme
+base theme: classy
+description: 'A Sub-theme Of Bartik.'
+package: Core
+version: VERSION
+core_version_requirement: ^8.8.0 || ^9.0
+libraries:
+  - omedia/global-styling
+  - omedia/global-js
+stylesheets-remove:
+  - core/modules/views/css/views.module.css
+  - core/modules/views/css/system/components/align.module.css
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'

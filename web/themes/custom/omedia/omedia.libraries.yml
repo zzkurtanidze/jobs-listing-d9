@@ -1,0 +1,16 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+maintenance:
+  css:
+    theme:
+      css/maintenance.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    js/update_status.js : {attributes: { async: true } }
+  dependencies:
+    - core/jquery

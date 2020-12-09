@@ -1,0 +1,15 @@
+job.create-new-job:
+  path: '/jobs/new'
+  defaults:
+    _title: 'Create New Job'
+    _form: 'Drupal\job\Form\JobForm'
+  requirements:
+    _user_is_logged_in: 'TRUE'
+
+job.update_status:
+  path: '/job/{id}/{published}'
+  defaults:
+    _title: 'Update Job Status'
+    _controller: '\Drupal\job\Controller\JobController::build'
+  requirements:
+    _permission: 'access content'

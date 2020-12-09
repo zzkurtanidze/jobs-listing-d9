@@ -89,6 +89,17 @@
       <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
       <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
       <path value="$PROJECT_DIR$/vendor/kint-php/kint" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-configuration" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/placeholder-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-en" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-core" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-extend-plugin" />
+      <path value="$PROJECT_DIR$/vendor/alchemy/zippy" />
+      <path value="$PROJECT_DIR$/vendor/stecman/symfony-console-completion" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />

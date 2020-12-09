@@ -1,7 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09211497-c7a8-47a4-9e6b-ec33492d8651" name="Default Changelist" comment="" />
+    <list default="true" id="09211497-c7a8-47a4-9e6b-ec33492d8651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/job/job.libraries.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sites/default/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/css/maintenance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/js/update_status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/omedia.info.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/omedia.libraries.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/omedia.theme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/sass/_job.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/sass/_profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/block/block.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/classy/views/views-exposed-form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/content/node.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/layout/page.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/layout/region--header.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/maintenance-page.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/navigation/menu.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/user/user.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/views/views-view-field.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/omedia/themes/views/views-view-grid.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jobs-listing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jobs-listing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-06222e27357ad9489582aefa9f3132bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-0923b0cf3e6fb77d1cf3a8946eb61c9b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-0b719560e30c32c3f105b08f2b93c9ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1250b9c1907d511f744428d6e0442017" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1272b8d04fc2163ee383df0592d628d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1989d78705a53dd0bbfebeaa8b5b25ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1d85ff2b2f2ddabe8f24a95187a001a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1e92904d45d54f09a6de616d13a36aab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1eefdbcece9c3ecf8c7f7d483ff7d204" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-1f83081491f3345646c1064f3af9ba00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-22a43afa1fcdd55e07d0f25af80f914b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-23c8d2db710df275fe104e6614d88244" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-2dc7f3bc8d851729a2e32ef1fce121d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-320386232e98d1e3f13122f154a8ba5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-32ca09d931af11ac2874b82b510f3ec0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-38bced0ef6cf116821fe94105c0874ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-4c25b2a24ab0f33021942d8f7573fe7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-4dd379d5115e218e8cd1e2ea76262ca8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-517ac915cb1aa18d51d71d4d283ca290" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-517ce5c7a62bcf67c5c7594984097fb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-547e8e22b18fb81fdbabb84b449c27bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-5784ff34a71a6184419eb82df175e8b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-5a9228cccc4f44f418eca08d824344c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-5b56c63cad4c6c1f317e9fc403d07617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-5be12550ac4ad777b443af0cfdb0047e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-5c50df9d87660b8c9046667097819e33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-5cd869bee9ad64d5b8261c564ba827cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-62704c8bc729a4b840296b8545bf7124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-68095d9992731050d059545fd532243f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-6c946a1178e75c53518465ad1938099e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-70dd706c73ebd7d211811ad114dc909b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-764ac35977901d85437c76c823175fd9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-786b62c621ec4b5f402ab44cb42af872" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-78b6a8f91b7bbca8322f0bb70eaf4649" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-7b1660b9c6782a97a303caae08651797" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-83c0f3febb255804fa8019ea83c75179" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-85f78f4ee180ddaa79ac51aac476e331" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-8ca02671b20985f66a658df08dbfcf28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-8f791998834131b33fa2180dc3421183" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-9e4374caf801bc716b386df9be9325ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-adb5980010c39841978c09844bcbcf96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-af6505cffbce8050389ea0b2804c8e72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-b2532a55d2b5f6f5cf7d8679de3ae54b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-b7c2ec5283d86130e61906917db15956" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-ba9173e863eb9789b7cfcc37b0a9820b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-bcced74102e0b16c0be9d964b9e82127" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-bf462a92eaaadd54d67d14b1b8ac205e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-bfb8579b267bc7da6dcc1ba54dfae01a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-c20998fc91d45c1afc2474f3c7e5da01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-c91c038a8027cf8ce3787a59266b68a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-ce6ec936c95135e23c9349dd708f9800" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-d20e39ad7aa90cc0b59465bb433caf38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-d3f14f54c072e7761a1ee95fa696934f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-d57c609f7bff1900aad4bd745d00625f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-d6310c019ea1ca512039c5f95793b442" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-db85a080e540172b6aa239ec8428bcc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-eed5867c5f4f3a36640884329dc12852" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-f5c5f6ed78bf269877b8d79a4cec2e3b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-f6d05c3c036c02c92cefb36eb0d2d62e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-f767d12f2497a5f881fd66b79d18b309" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-fbfeeade1c8e2afccde6bbc4388872cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/tmp-fd4510d40f8d147c4fd97e2e76530bc1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/bartik/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/bartik/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/bartik/templates/page-title.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/bartik/templates/page-title.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/job/job.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/job/job.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/job/job.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/job/job.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/settings.local.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/settings.local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/development.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/development.services.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,15 +135,19 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
-  <component name="DrupalConfiguration" enabled="true" version="8">
-    <drupalPath>$PROJECT_DIR$</drupalPath>
+  <component name="DrupalConfiguration" enabled="true" version="7">
+    <drupalPath>$PROJECT_DIR$/web/</drupalPath>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JoomlaConfiguration">
     <joomlaConfigPath />
@@ -114,17 +242,35 @@
       <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
       <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
       <path value="$PROJECT_DIR$/vendor/kint-php/kint" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-configuration" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/placeholder-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-en" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-core" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-extend-plugin" />
+      <path value="$PROJECT_DIR$/vendor/alchemy/zippy" />
+      <path value="$PROJECT_DIR$/vendor/stecman/symfony-console-completion" />
     </include_path>
   </component>
   <component name="ProjectId" id="1k9KGygf9H4qDj6YgAvPTOP3XcH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.48" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/themes/custom/omedia" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,13 +278,24 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/web/themes/custom/omedia/omedia.theme" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/sites" />
-      <recent name="$PROJECT_DIR$/web/sites/default" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes/layout" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes/content" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes/navigation" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes/block" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/images" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes/user" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/omedia/themes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -158,29 +315,114 @@
       <workItem from="1605369188343" duration="2079000" />
       <workItem from="1605386771453" duration="1600000" />
       <workItem from="1605530230506" duration="2350000" />
+      <workItem from="1605543247118" duration="4270000" />
+      <workItem from="1605711545765" duration="12501000" />
+      <workItem from="1605728590626" duration="1116000" />
+      <workItem from="1605732103966" duration="4463000" />
+      <workItem from="1605764518639" duration="11233000" />
+      <workItem from="1605894502879" duration="4173000" />
+      <workItem from="1606315587386" duration="2970000" />
+      <workItem from="1606335226271" duration="22000" />
+      <workItem from="1606556458272" duration="872000" />
+      <workItem from="1606557352728" duration="1334000" />
+      <workItem from="1606565156629" duration="16813000" />
+      <workItem from="1606602724976" duration="2656000" />
+      <workItem from="1606643714694" duration="2931000" />
+      <workItem from="1606677164145" duration="401000" />
+      <workItem from="1606740918963" duration="637000" />
+      <workItem from="1606764918979" duration="916000" />
+      <workItem from="1606767076723" duration="9518000" />
+      <workItem from="1606861142188" duration="960000" />
+      <workItem from="1606864227641" duration="185000" />
+      <workItem from="1606864636790" duration="6260000" />
+      <workItem from="1606902057988" duration="6605000" />
+      <workItem from="1606925747207" duration="18847000" />
+      <workItem from="1606997251753" duration="11946000" />
+      <workItem from="1607249605502" duration="5454000" />
+      <workItem from="1607272535735" duration="6000" />
+      <workItem from="1607425503547" duration="2513000" />
+      <workItem from="1607428968473" duration="247000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="173" width="444" height="519" key="FileChooserDialogImpl" timestamp="1605291460232">
+    <state x="429" y="115" width="732" height="631" key="#Inspections" timestamp="1606776184901">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="429" y="115" width="732" height="631" key="#Inspections/0.0.1600.870@0.0.1600.870" timestamp="1606776184901" />
+    <state x="580" y="326" width="466" height="210" key="#Stylelint" timestamp="1606604283978">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="580" y="326" width="466" height="210" key="#Stylelint/0.0.1600.870@0.0.1600.870" timestamp="1606604283978" />
+    <state x="524" y="239" width="552" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605898463501">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="524" y="239" width="552" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.870@0.0.1600.870" timestamp="1605898463501" />
+    <state x="545" y="281" width="500" height="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605898520207">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="545" y="281" width="500" height="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.870@0.0.1600.870" timestamp="1605898520207" />
+    <state x="100" y="99" width="1400" height="670" key="DiffContextDialog" timestamp="1605898551944">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="100" y="99" width="1400" height="670" key="DiffContextDialog/0.0.1600.870@0.0.1600.870" timestamp="1605898551944" />
+    <state x="573" y="173" width="424" height="478" key="FileChooserDialogImpl" timestamp="1606335246083">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="573" y="170" width="444" height="519" key="FileChooserDialogImpl/0.0.1600.853@0.0.1600.853" timestamp="1605107325271" />
-    <state x="573" y="173" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1605291460232" />
-    <state x="304" y="62" width="992" height="737" key="SettingsEditor" timestamp="1605292824210">
+    <state x="573" y="173" width="424" height="478" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1606335246083" />
+    <state x="304" y="62" width="992" height="737" key="SettingsEditor" timestamp="1606592234533">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="304" y="61" width="992" height="737" key="SettingsEditor/0.0.1600.853@0.0.1600.853" timestamp="1605108067699" />
-    <state x="304" y="62" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1605292824210" />
-    <state x="525" y="349" width="540" height="164" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605296248133">
+    <state x="304" y="62" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1606592234533" />
+    <state x="366" y="34" width="857" height="793" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607014451960">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="525" y="349" width="540" height="164" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1600.870@0.0.1600.870" timestamp="1605296248133" />
+    <state x="366" y="34" width="857" height="793" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.870@0.0.1600.870" timestamp="1607014451960" />
+    <state x="608" y="351" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606930977504">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="608" y="351" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.870@0.0.1600.870" timestamp="1606930977504" />
+    <state x="464" y="195" key="run.anything.popup" timestamp="1606946024660">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="464" y="195" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1606946024660" />
+    <state x="463" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1607250576943">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="463" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1607250576943" />
+    <state x="525" y="349" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606565378230">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="525" y="349" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1600.870@0.0.1600.870" timestamp="1606565378230" />
   </component>
   <component name="WordPressConfiguration">
     <wordpressPath />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/themes/custom/omedia/themes/content/node.html.twig</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

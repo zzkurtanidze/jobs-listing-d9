@@ -1,0 +1,202 @@
+/* TEASER && FULL VIEW  */
+
+.job {
+  position: relative;
+  margin: 15px;
+  padding: 25px 30px;
+  background-color: white;
+  height: 350px;
+  width: 430px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+}
+
+.node__title {
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: 300;
+
+  a {
+    color: $text-color;
+  }
+
+  margin-bottom: 5px;
+}
+
+
+.job-metadata {
+  font-weight: 600;
+  margin-left: 2px;
+  font-size: 14px;
+  color: $text-color;
+}
+
+.node__content {
+  margin-top: 5px;
+  color: $text-color;
+  opacity: .8;
+}
+
+.node-readmore {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.field {
+  margin-top: 10px;
+}
+
+.field--name-title {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.field__label {
+  margin-bottom: 5px;
+  color: $text-secondary-color;
+  font-weight: 500;
+}
+
+.field__item {
+  color: $text-color;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/* Create New Job Form */
+
+.job-job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+  margin-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.form-item, {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  color: $text-secondary-color;
+  padding: 5px;
+}
+
+.form-text, .form-email, .form-url, .form-number, .form-tel, .form-select {
+  outline: none;
+  height: 40px;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  color: $text-color;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+}
+
+.form-text:disabled, .form-email:disabled, .form-url:disabled, .form-number:disabled, .form-tel:disabled, .form-select:disabled {
+  background-color: #dddddd;
+}
+
+.form-item-description-value {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+label {
+  font-weight: 600;
+}
+
+.form-type-checkbox, .form-type-radio {
+  flex-direction: row;
+
+  label {
+    padding-left: 5px;
+  }
+
+  margin-bottom: 5px;
+}
+
+.field-prefix {
+  width: max-content;
+}
+
+.form-button {
+  margin: 0;
+}
+
+.add-category, .remove-category {
+  width: 150px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+.prefix {
+  display: flex;
+  flex-direction: row;
+
+  .form-no-label {
+    margin: 10px;
+  }
+
+  .prefix-select {
+    margin: auto 10px auto 0;
+    width: 100px;
+  }
+
+  .prefix-label {
+    margin: auto 10px auto 0;
+    padding: 0;
+    font-weight: 600;
+  }
+
+}
+
+.field-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-submit {
+  width: max-content;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $primary-color;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin: 20px 0 0;
+}
+
+.add-category {
+  background: $primary-color;
+  color: white;
+}
+
+.remove-category {
+  margin-top: 10px;
+  background-color: #d7d7d7;
+  color: $text-color;
+}
+
+.remove-category:disabled {
+  background-color: #b1b1b1;
+  color: $text-secondary-color;
+}
+
+

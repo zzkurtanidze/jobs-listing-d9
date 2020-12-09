@@ -13,6 +13,26 @@
   margin-left: auto;
 }
 
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.flex-row > * {
+  margin: 2px;
+}
+
+.flex-column {
+  width: 32em;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column > * {
+  margin: 2px;
+}
+
+
+
 @media all and (min-width: 851px) {
   .layout-container {
     max-width: 1290px;

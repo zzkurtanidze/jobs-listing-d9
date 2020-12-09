@@ -12,13 +12,13 @@
  *   displayed after the main title tag that appears in the template.
  */
 #}
-
 {%
   set classes = [
     'title',
     'page-title',
   ]
 %}
+
 {{ title_prefix }}
 {% if title %}
   <h1{{ title_attributes.addClass(classes) }}>{{ title }}</h1>

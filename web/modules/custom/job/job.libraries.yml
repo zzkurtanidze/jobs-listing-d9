@@ -1,0 +1,3 @@
+multiple-category-field:
+  js:
+    js/multiple-category-field.js: { attributes: { async: true } }

@@ -1,0 +1,73 @@
+<?php
+
+use Drupal\Core\Url;
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_preprocess().
+ */
+function omedia_preprocess_maintenance_page(&$variables)
+{
+    $variables["#attached"]["library"][] = "omedia/maintenance";
+}
+
+function omedia_preprocess_user(&$variables){
+  $variables["#attached"]["library"][] = "omedia/global-js";
+  $current_user_id = \Drupal::currentUser()->id();
+  $user_id = $variables["user"]->id();
+    $result = Drupal::entityTypeManager()->getStorage('node')->loadByProperties([
+      'type' => 'job',
+    ]);
+
+  $variables['current_user_id'] = $current_user_id;
+  if(!is_null($result)) {
+    foreach($result as $job) {
+      $options = ['absolute' => TRUE];
+      $url = Url::fromRoute('entity.node.canonical', ["node" => $job->id()], $options);
+      $job_url = $url->toString();
+      if($job->toArray()["uid"][0]["target_id"] === $user_id){
+        if($job->get('field_location')->getString() !== ""){
+          $location = $job->get('field_location')->getString();
+        } else {
+          $location = "Remote";
+        }
+        if($job->get("field_published")->getString() == 1){
+          $published = true;
+        } else{
+          $published = false;
+        }
+        $variables['jobs'][$job_url] = [
+          "title" => $job->get('title')->getString(),
+          "company_email" => $job->get('field_company_email')->getString(),
+          "location" => $location,
+          "phone_number" => $job->get('field_phone_number')->getString(),
+          "category" => Term::load($job->get('field_category')->getString())->get('name')->getString(),
+          "published" => $published,
+        ];
+      }
+      if(isset($variables["jobs"])){
+        $variables["jobs"] = array_reverse($variables["jobs"]);
+      }
+    }
+  }
+  if($variables["elements"]["#user"]->get("field_full_name")->getString() !== ""){
+    $name = $variables["elements"]["#user"]->get('field_full_name')->getString();
+  }else{
+    $name = $variables["elements"]["#user"]->get('field_company_name')->getString();
+  }
+  $variables['elements']["#user"]->get("name")->setValue($name);
+}
+
+function omedia_preprocess_menu(&$variables) {
+  if($variables['items'] && isset($variables['items']['menu_link_content:e6f6ab07-51cc-4632-8062-dcdf25ab7ccd'])) {
+    $variables['items']['menu_link_content:e6f6ab07-51cc-4632-8062-dcdf25ab7ccd']['attributes']["class"] = 'button-block';
+  }
+}
+
+function omedia_preprocess_views_exposed_form(&$variables) {
+  $variables['form']["title"]["#title"] = null;
+  $variables['form']["term_node_tid_depth"]["#title"] = null;
+  $variables['form']['title']["#attributes"]['placeholder'] = 'Search job';
+  $variables['form']['title']["#attributes"]['class'] = ['search-job'];
+  $variables['form']["term_node_tid_depth"]["#attributes"]['class'] = ['category-job'];
+}

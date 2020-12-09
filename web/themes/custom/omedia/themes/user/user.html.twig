@@ -1,0 +1,68 @@
+{#
+/**
+ * @file
+ * Theme override to present all user data.
+ *
+ * This template is used when viewing a registered user's page,
+ * e.g., example.com/user/123. 123 being the user's ID.
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ *   print a subset such as 'content.field_example'. Fields attached to a user
+ *   such as 'user_picture' are available as 'content.user_picture'.
+ * - attributes: HTML attributes for the container element.
+ * - user: A Drupal User entity.
+ *
+ * @see template_preprocess_user()
+ */
+#}
+
+<article{{ attributes.addClass('profile') }}>
+  {% if content %}
+    <div class="user-info">
+      {{ content }}
+    </div>
+  {% endif %}
+  {% if jobs %}
+  <h2><strong>Posted Jobs</strong></h2>
+  <table class="table">
+    <thead class="table-header">
+    <tr>
+      <th class="header__item">Job Name</th>
+      <th class="header__item">Company</th>
+      <th class="header__item">Location</th>
+      <th class="header__item">Phone Number</th>
+      <th class="header__item">Category</th>
+      {% if current_user_id == user.id %}
+        <th class="header__item">Published</th>
+      {% endif %}
+    </tr>
+    </thead>
+    <tbody class="table-content">
+    {% for url, row in jobs %}
+      <tr class="table-row">
+        {% for value in row %}
+          {% if loop.index == 1 %}
+            <td class="table-data">
+              <a href={{ url }}>{{ value }}</a>
+            </td>
+          {% elseif loop.index < 6 %}
+            <td class="table-data">{{ value }}</td>
+          {% endif %}
+
+        {% endfor %}
+        {% if current_user_id == user.id %}
+          <td class="center table-data">
+            <input type="checkbox" onchange="on_checkbox_change('{{ url }}')" {{ row.published ? 'checked' }}
+                   name="published" id="published"/>
+          </td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+    {% else %}
+      <h2><strong>No Jobs Posted yet</strong></h2>
+  {% endif %}
+</article>
+

@@ -1,0 +1,42 @@
+.view-filters{
+  width: 90vw;
+}
+.views-exposed-form{
+  background-color: white;
+  width: max-content;
+  padding: 0 0 0 10px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
+  margin: 0 auto 50px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+.search-job {
+  outline: none;
+  height: 40px;
+  border: 0;
+  padding-left: 20px;
+  border-radius: 0;
+  color: $primary-color;
+  box-shadow: none !important;
+}
+
+.category-job {
+  height: 40px;
+  border: 0;
+  border-radius: 2.5px;
+  padding: 10px 10px;
+  border-left:3px solid $primary-color !important;
+  background-color: $light-gray;
+  box-shadow: none !important;
+}
+
+main {
+  margin: 20px 100px 0 100px;
+}
+
+
+.region-breadcrumb {
+  margin-left: 10%;
+}

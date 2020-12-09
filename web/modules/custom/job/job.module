@@ -1,12 +1,15 @@
 <?php
 
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\user\Entity\User;
+
 /**
  * Implements hook_form_alter().
  */
-function job_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
+function job_form_alter(&$form, FormStateInterface $form_state, $form_id)
 {
-  if($form["#id"] === "node-job-form"){
-    $user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());
+  if($form_id === "node-job-form"){
+    $user = User::load(Drupal::currentUser()->id());
     $form["field_phone_number"]["widget"][0]["value"]["#default_value"] = $user->get('field_phone_number')->getString();
     if($user->get('field_account_type')->getString() !== "0") {
       $form["field_company_email"]["widget"][0]["value"]["#default_value"] = $user->get("mail")->getString();
@@ -15,9 +18,6 @@ function job_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state
   }
 }
 
-function job_node_access(\Drupal\node\NodeInterface $node, $op, \Drupal\Core\Session\AccountInterface $account)
-{
-  dump($node->get('field_published'));
-}
+//function job_node_access(\Drupal\node\NodeInterface $node, $op, \Drupal\Core\Session\AccountInterface $account)
 
 
